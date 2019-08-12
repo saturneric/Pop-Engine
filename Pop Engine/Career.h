@@ -12,7 +12,9 @@ class Career
 public:
 
 private:
+	// The prodution which this career makes.
 	shared_ptr<Production> pdt;
+	// Produtions which this career needed.
 	shared_ptr<Need> ned;
 
 };

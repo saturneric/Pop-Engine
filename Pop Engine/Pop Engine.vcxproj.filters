@@ -39,6 +39,9 @@
     <ClCompile Include="SellProduction.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Land.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Career.h">
@@ -60,6 +63,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="SellProduction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Land.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

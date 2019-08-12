@@ -11,8 +11,11 @@ class Production
 public:
 
 private:
+	// Raw material to make this production.
 	vector<shared_ptr<Production>> material;
+	// Base value of this prodution.
 	float value;
+	// Name of this production.
 	string name;
 };
 
