@@ -4,14 +4,18 @@
 #include <string>
 #include <vector>
 
-#include "Population.h"
 #include "Production.h"
+
+class Market;
+
+class Population;
 
 using namespace std;
 
 class Land
 {
 public:
+    shared_ptr<Market> get_market(void);
 
 private:
 	vector<unique_ptr<Population>> pops;

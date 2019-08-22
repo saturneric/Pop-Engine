@@ -10,6 +10,7 @@ using namespace std;
 class Need
 {
 public:
+    
 
 private:
 	// Certain kinds of production which one of those careers need to matain their lives.

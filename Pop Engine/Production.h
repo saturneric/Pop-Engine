@@ -9,6 +9,8 @@ using namespace std;
 class Production
 {
 public:
+    float get_value(void);
+    string get_name(void);
 
 private:
 	// Raw material to make this production.

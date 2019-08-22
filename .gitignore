@@ -339,3 +339,5 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/Pop Engine/.DS_Store
+/Pop Engine/._.DS_Store

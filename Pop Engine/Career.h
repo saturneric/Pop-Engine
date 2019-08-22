@@ -10,6 +10,7 @@ using namespace std;
 class Career
 {
 public:
+    shared_ptr<Production> get_production(void);
 
 private:
 	// The prodution which this career makes.
